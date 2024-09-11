@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/samediamg/static/css/main.322fd4e0.css",
+    "main.js": "/samediamg/static/js/main.872ad6a5.js",
+    "static/js/453.798c4e56.chunk.js": "/samediamg/static/js/453.798c4e56.chunk.js",
+    "static/media/logo.svg": "/samediamg/static/media/logo.691a0a2cdb7a5f98e19ca05b4cac00de.svg",
+    "static/media/pesticidesHover.svg": "/samediamg/static/media/pesticidesHover.05bc1245609fbb789511f80c3204e29a.svg",
+    "static/media/pesticides.svg": "/samediamg/static/media/pesticides.34be3c035411ae3acfb0bb42cc071bb5.svg",
+    "static/media/decor5.svg": "/samediamg/static/media/decor5.76cc691a63750be2147b.svg",
+    "static/media/decor6.svg": "/samediamg/static/media/decor6.a0bf6257fc8693359485.svg",
+    "static/media/decor7.svg": "/samediamg/static/media/decor7.b00af0be232149469892.svg",
+    "static/media/decor8.svg": "/samediamg/static/media/decor8.eb947ed3270d2a0de475.svg",
+    "static/media/pestsHover.svg": "/samediamg/static/media/pestsHover.b97726ced5625a6369afba5ec1a72897.svg",
+    "static/media/pests.svg": "/samediamg/static/media/pests.88734cee71f83d5730531e2bee155e8f.svg",
+    "static/media/substances.svg": "/samediamg/static/media/substances.856db49e8fc68f373d902b37e442fe23.svg",
+    "static/media/substancesHover.svg": "/samediamg/static/media/substancesHover.3b730cb45ae6ed8f1e4a5964c1a470a3.svg",
+    "static/media/sheet.svg": "/samediamg/static/media/sheet.0a5899e97634004b80993cff348c112d.svg",
+    "static/media/decor2.svg": "/samediamg/static/media/decor2.805ab6dd7f62de0eb44c.svg",
+    "static/media/decor3.svg": "/samediamg/static/media/decor3.fc469826ba4eced5806fa7bfc05f733c.svg",
+    "static/media/decor4.svg": "/samediamg/static/media/decor4.1de51c445eb4eee9231e.svg",
+    "static/media/decor.svg": "/samediamg/static/media/decor.17afcf599815ff17268b.svg",
+    "static/media/culturesHover.svg": "/samediamg/static/media/culturesHover.99042e3bc911b4535c71e9c127c5a1e0.svg",
+    "static/media/cultures.svg": "/samediamg/static/media/cultures.d34ebba8dece33c068decabb54316552.svg",
+    "index.html": "/samediamg/index.html",
+    "static/media/key.svg": "/samediamg/static/media/key.0ef4b1abeaf4d3bafbbdcbeb6ac86e62.svg",
+    "static/media/person.svg": "/samediamg/static/media/person.f85a77cb85b7d98875fbb1c39d6af7a5.svg",
+    "main.322fd4e0.css.map": "/samediamg/static/css/main.322fd4e0.css.map",
+    "main.872ad6a5.js.map": "/samediamg/static/js/main.872ad6a5.js.map",
+    "453.798c4e56.chunk.js.map": "/samediamg/static/js/453.798c4e56.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.322fd4e0.css",
+    "static/js/main.872ad6a5.js"
+  ]
+}
