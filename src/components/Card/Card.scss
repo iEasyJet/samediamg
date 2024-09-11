@@ -1,0 +1,140 @@
+@import url('../../index.scss');
+
+.card {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  width: 376px;
+  height: 188px;
+
+  border: 2px solid #79c800;
+  border-radius: 16px;
+
+  background-repeat: no-repeat;
+  background-position: top 0px right 0px;
+
+  background-color: rgba(#ffffff, 0.7);
+  box-shadow: 5px 5px 5px rgba(black, $alpha: 0.3);
+
+  transition: all 0.05s linear;
+
+  overflow: hidden;
+
+  &__title {
+    width: 161px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+
+    left: 16px;
+    bottom: 16px;
+
+    font-family: 'Raleway', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+
+    transition: all 0.05s linear;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(#79c800, 0.4);
+  }
+
+  &:hover &__title {
+    cursor: pointer;
+    font-size: 28px;
+  }
+
+  &__circle-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  &:hover > &__circle-wrapper > &__circle-1 {
+    background: rgba(#ffffff, 0.05);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+    animation-duration: 5s;
+    animation-name: circle;
+    animation-iteration-count: infinite;
+  }
+
+  &:hover > &__circle-wrapper > &__circle-2 {
+    background: rgba(#ffffff, 0.05);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+    animation-duration: 5s;
+    animation-name: circle2;
+    animation-iteration-count: infinite;
+  }
+
+  &:hover > &__circle-wrapper > &__circle-3 {
+    background: rgba(#ffffff, 0.05);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+    animation-duration: 5s;
+    animation-name: circle3;
+    animation-iteration-count: infinite;
+  }
+}
+
+@media (max-width: 450px) {
+  .card {
+    width: 300px;
+    height: 160px;
+  }
+}
+
+@keyframes circle {
+  0% {
+    transform: translateX(-15px) translateY(-15px) scale(1);
+    left: 0;
+  }
+  50% {
+    transform: translateX(75px) translateY(75px) scale(1.5);
+    background: rgba(#999797, 0.1);
+    left: 75px;
+  }
+  100% {
+    transform: translateX(-15px) translateY(-15px) scale(1);
+  }
+}
+
+@keyframes circle2 {
+  0% {
+    transform: translateX(50px) translateY(0) scale(1);
+  }
+  50% {
+    background: rgba(#999797, 0.2);
+  }
+  100% {
+    transform: translateX(475px) translateY(100px) scale(1.25);
+  }
+}
+
+@keyframes circle3 {
+  0% {
+    transform: translateX(150px) translateY(250px) scale(1);
+    ackground: rgba(#999797, 0.1);
+  }
+  50% {
+    transform: translateX(250px) translateY(0) scale(2.5);
+    background: rgba(#999797, 0.2);
+  }
+  100% {
+    transform: translateX(150px) translateY(250px) scale(1);
+    ackground: rgba(#999797, 0.1);
+  }
+}

@@ -1,0 +1,50 @@
+@import url('../../index.scss');
+
+.categories {
+  position: relative;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 68px;
+
+  background: url('../../imgs/decor.svg') no-repeat top 0px left 63%,
+    url('../../imgs/decor2.svg') no-repeat bottom 0px left 0px,
+    url('../../imgs/decor4.svg') no-repeat bottom 104px right 0px;
+  width: 100vw;
+  min-height: 622px;
+
+  &__list-1 {
+    position: absolute;
+  }
+
+  &__list-2 {
+    position: absolute;
+  }
+
+  &__wrapper-card {
+    margin: 0 auto;
+
+    display: flex;
+    max-width: 1600px;
+    width: 100%;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  &__title {
+    margin: 0 0 68px;
+    padding: 0;
+
+    font-family: 'Raleway', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+  }
+}
